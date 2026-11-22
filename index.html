@@ -1,168 +1,121 @@
 <!DOCTYPE html>
-<html lang="id">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E🧱%3C/text%3E%3C/svg%3E">
-<title>Novz Schematic – Schematic Farm &amp; Base Minecraft 100% Gratis</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Poppins:wght@400;600;800&display=swap">
+<html lang="id"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Novz Schematic — Schematic Minecraft 100% Gratis</title>
+<meta name="description" content="Koleksi schematic farm & base Minecraft (.litematic) 100% gratis. Request schematic langsung lewat Discord.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Press+Start+2P&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#f3f6ee;--bg2:#e8eedf;--card:#fff;--text:#142016;--muted:#566652;--accent:#f5b800;--ink:#1a1400;--green:#3f9a2e;--line:#d3dccb;--glow:rgba(245,184,0,.28);--glow2:rgba(63,154,46,.22);--grid:rgba(20,32,22,.06);--nav:rgba(243,246,238,.85);
-box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b110d;--bg2:#111a13;--card:#16211a;--text:#f3f6ee;--muted:#9fb09a;--accent:#ffd21f;--green:#6cc04a;--line:#25362a;--glow:rgba(255,210,31,.2);--glow2:rgba(108,192,74,.2);--grid:rgba(255,255,255,.045);--nav:rgba(11,17,13,.85)}}
-:root[data-theme="dark"]{--bg:#0b110d;--bg2:#111a13;--card:#16211a;--text:#f3f6ee;--muted:#9fb09a;--accent:#ffd21f;--green:#6cc04a;--line:#25362a;--glow:rgba(255,210,31,.2);--glow2:rgba(108,192,74,.2);--grid:rgba(255,255,255,.045);--nav:rgba(11,17,13,.85)}
-html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 70px);scroll-behavior:smooth}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--text);font-family:Poppins,"Segoe UI",system-ui,Arial,sans-serif;line-height:1.65;overflow-x:hidden}
-body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--nav);z-index:30}
-.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
-.px{font-family:"Press Start 2P",monospace,system-ui}
-header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--nav);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
-.nv{display:flex;justify-content:space-between;align-items:center;height:62px}
-.brand{font-size:.7rem;letter-spacing:1px;text-decoration:none;color:var(--text)}.brand b{color:var(--accent)}
-.nv nav a{color:var(--muted);text-decoration:none;margin-left:20px;font-size:.9rem;font-weight:600}
-.nv nav a:hover{color:var(--text)}
-.btn{display:inline-block;padding:14px 28px;border-radius:12px;font-weight:800;text-decoration:none;background:var(--accent);color:var(--ink);box-shadow:0 5px 0 rgba(0,0,0,.28);transition:.15s;margin:6px}
-.btn:hover{transform:translateY(2px);box-shadow:0 3px 0 rgba(0,0,0,.28)}
-.btn.o{background:transparent;color:var(--text);border:2px solid var(--line);box-shadow:none}
-.btn.s{padding:9px 18px;font-size:.85rem;margin:0}
-.hero{position:relative;text-align:center;padding:70px 0 80px;background:radial-gradient(600px 300px at 20% 10%,var(--glow2),transparent),radial-gradient(600px 320px at 80% 0%,var(--glow),transparent),linear-gradient(var(--grid) 1px,transparent 1px) 0 0/36px 36px,linear-gradient(90deg,var(--grid) 1px,transparent 1px) 0 0/36px 36px}
-.badge{display:inline-block;background:var(--green);color:#fff;padding:8px 16px;border-radius:99px;font-size:.62rem;margin-bottom:22px}
-.cube{width:150px;height:auto;animation:fl 4s ease-in-out infinite;filter:drop-shadow(0 18px 24px rgba(0,0,0,.35))}
+:root{--y:#facc15;--g:#78dc5a;--bg:#070d09;--card:rgba(12,22,15,.72);--bd:rgba(250,204,21,.18);--tx:#eaf3e6;--mu:#9bb09a}
+*{box-sizing:border-box;margin:0}html{scroll-behavior:smooth}
+body{font-family:'Space Grotesk',system-ui,sans-serif;background:var(--bg);color:var(--tx);overflow-x:hidden}
+#bg{position:fixed;inset:0;width:100%;height:100%;object-fit:cover;z-index:-3}
+#cv{position:fixed;inset:0;z-index:-2;pointer-events:none}
+.veil{position:fixed;inset:0;z-index:-1;background:radial-gradient(ellipse at 50% 20%,rgba(7,13,9,.25),rgba(7,13,9,.82) 75%)}
+nav{position:fixed;top:0;left:0;right:0;z-index:20;display:flex;justify-content:space-between;align-items:center;padding:12px 5vw;backdrop-filter:blur(14px);background:rgba(7,13,9,.55);border-bottom:1px solid var(--bd)}
+.brand{font-family:'Press Start 2P';font-size:12px;color:var(--y);text-decoration:none;display:flex;align-items:center;gap:10px}
+.brand img{height:34px}.brand b{color:#fff}
+nav div a{color:var(--mu);text-decoration:none;margin-left:22px;font-size:14px;transition:.2s}nav div a:hover{color:var(--y)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 28px;border-radius:12px;font-weight:700;text-decoration:none;font-size:15px;transition:.25s;border:0;cursor:pointer;font-family:inherit}
+.btn.p{background:linear-gradient(135deg,var(--y),#f59e0b);color:#161200;box-shadow:0 0 28px rgba(250,204,21,.35)}
+.btn.p:hover{transform:translateY(-3px) scale(1.04);box-shadow:0 0 44px rgba(250,204,21,.6)}
+.btn.s{background:rgba(255,255,255,.07);color:#fff;border:1px solid var(--bd)}.btn.s:hover{background:rgba(250,204,21,.15);transform:translateY(-3px)}
+.hero{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:110px 5vw 60px}
+.logo{width:min(300px,62vw);filter:drop-shadow(0 0 40px rgba(250,204,21,.4));animation:fl 4s ease-in-out infinite}
+.logo.t{font-family:'Press Start 2P';font-size:clamp(34px,8vw,72px);color:var(--y);line-height:1.3;text-shadow:0 0 30px rgba(250,204,21,.5)}.logo.t span{display:block;color:#fff;font-size:.4em}
 @keyframes fl{50%{transform:translateY(-14px)}}
-h1{font-size:clamp(2rem,8vw,4rem);line-height:1.1;margin:22px 0 10px;font-weight:800}
-h1 .y{color:var(--accent)}
-.hero p{color:var(--muted);max-width:580px;margin:0 auto 28px;font-size:1.08rem}
-.stats{display:flex;justify-content:center;flex-wrap:wrap;gap:14px;margin-top:44px}
-.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 24px;min-width:130px}
-.stat b{display:block;color:var(--accent);font-size:1.4rem}.stat span{font-size:.8rem;color:var(--muted)}
-section{padding:60px 0}
-.tag{font-size:.6rem;color:var(--green);margin-bottom:10px}
-h2{font-size:clamp(1.5rem,4vw,2.1rem);margin:0 0 8px;font-weight:800}
-.sub{color:var(--muted);margin:0 0 30px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px;transition:.2s}
-.card:hover{transform:translateY(-5px);border-color:var(--accent)}
-.ic{width:52px;height:52px;border-radius:12px;background:var(--bg2);display:grid;place-items:center;font-size:1.6rem;margin-bottom:12px}
-.card h3{margin:0 0 4px;font-size:1.1rem}.card p{margin:0;color:var(--muted);font-size:.93rem}
-.free{background:linear-gradient(135deg,var(--green),#2d7a20);color:#fff;border-radius:22px;padding:44px 28px;text-align:center}
-.free h2{font-size:clamp(1.8rem,6vw,3rem)}
-.free p{opacity:.92;max-width:520px;margin:0 auto 18px}
-.chk{display:flex;flex-wrap:wrap;justify-content:center;gap:10px}
-.chk span{background:rgba(255,255,255,.16);padding:8px 16px;border-radius:99px;font-size:.88rem;font-weight:600}
-.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;counter-reset:s}
-.step{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px;position:relative}
-.step::before{counter-increment:s;content:counter(s);font-family:"Press Start 2P",monospace;font-size:.9rem;display:grid;place-items:center;width:44px;height:44px;border-radius:10px;background:var(--accent);color:var(--ink);margin-bottom:12px}
-.step b{display:block;margin-bottom:4px}.step span{color:var(--muted);font-size:.93rem}
-.cta{text-align:center;background:var(--bg2);border:1px solid var(--line);border-radius:22px;padding:54px 20px}
-footer{text-align:center;color:var(--muted);font-size:.82rem;padding:34px 0 44px;border-top:1px solid var(--line);margin-top:40px}
-#bgc{position:fixed;inset:0;width:100%;height:100%;z-index:-1;pointer-events:none}
-.mq{position:fixed;top:34%;left:0;z-index:-1;pointer-events:none;white-space:nowrap;display:flex;width:max-content;font-family:"Press Start 2P",monospace;font-size:clamp(2.6rem,11vw,8rem);color:transparent;-webkit-text-stroke:1.5px var(--line);opacity:.55;animation:mq 45s linear infinite}
-.mq span{padding-right:.8em}
-@keyframes mq{to{transform:translateX(-50%)}}
-@media (prefers-reduced-motion:reduce){.cube,.mq{animation:none}html{scroll-behavior:auto}}
-@media (max-width:560px){.nv nav a:not(.btn){display:none}}
-.farms{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:22px}
-.farm{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;display:flex;flex-direction:column}
-.shots{display:grid;grid-template-columns:1fr 1fr;gap:3px;background:var(--line)}
-.shots img{width:100%;aspect-ratio:16/10;object-fit:cover;display:block}
-.fb{padding:22px;display:flex;flex-direction:column;gap:10px;flex:1}
-.fb h3{margin:0;font-size:1.3rem}
-.meta{display:flex;flex-wrap:wrap;gap:8px}
-.chip{background:var(--bg2);border:1px solid var(--line);padding:4px 12px;border-radius:99px;font-size:.8rem;font-weight:600}
-.chip.g{background:var(--green);color:#fff;border-color:transparent}
-.fb p{margin:0;color:var(--muted);font-size:.95rem}
-.fb .btn{margin:auto 0 0;text-align:center}
-button.btn{border:0;cursor:pointer;font:inherit;font-weight:800}
-.dl{width:100%}
-.note{font-size:.8rem!important}
-.shots.one{grid-template-columns:1fr}.shots.one img{aspect-ratio:16/9}
-.vbg{position:fixed;inset:0;z-index:-1;pointer-events:none;overflow:hidden}
-.vbg video{width:100%;height:100%;object-fit:cover;display:block}
-.vbg::after{content:"";position:absolute;inset:0;background:var(--bg);opacity:.82}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .vbg::after{opacity:.4}}
-:root[data-theme="dark"] .vbg::after{opacity:.4}
-</style>
-</head>
-<body>
-<div class="vbg" aria-hidden="true"><video id="vbv" src="assets/video/novz-bg.mp4" autoplay muted loop playsinline preload="auto"></video></div>
-<header class="top"><div class="wrap nv">
-<a class="brand px" href="#"><b>NOVZ</b> SCHEMATIC</a>
-<nav><a href="#koleksi">Farm</a><a href="#base">Base</a><a href="#gratis">Gratis</a><a href="#cara">Cara Request</a> <a class="btn s" href="https://dc.gg/novzschematic" target="_blank" rel="noopener">Request</a></nav>
-</div></header>
+.badge{margin:26px 0 14px;padding:8px 18px;border-radius:99px;background:rgba(120,220,90,.12);border:1px solid rgba(120,220,90,.5);color:var(--g);font-weight:700;letter-spacing:.12em;font-size:13px;animation:pu 2.2s infinite}
+@keyframes pu{50%{box-shadow:0 0 22px rgba(120,220,90,.5)}}
+h1{font-size:clamp(30px,5.4vw,60px);line-height:1.1;max-width:900px}
+h1 em{font-style:normal;background:linear-gradient(90deg,var(--y),var(--g));-webkit-background-clip:text;color:transparent}
+.hero p{color:var(--mu);max-width:560px;margin:18px 0 32px;font-size:17px;line-height:1.6}
+.cta{display:flex;gap:14px;flex-wrap:wrap;justify-content:center}
+.stats{display:flex;gap:clamp(18px,5vw,56px);margin-top:54px;flex-wrap:wrap;justify-content:center}
+.stats div{padding:16px 26px;border-radius:14px;background:var(--card);border:1px solid var(--bd);backdrop-filter:blur(10px)}
+.stats b{display:block;font-size:34px;color:var(--y)}.stats span{color:var(--mu);font-size:13px}
+section{padding:80px 5vw;max-width:1250px;margin:auto}
+h2{font-size:clamp(24px,3.6vw,38px);margin-bottom:8px}h2 i{color:var(--y);font-style:normal}
+.sub{color:var(--mu);margin-bottom:34px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(285px,1fr));gap:22px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:18px;overflow:hidden;backdrop-filter:blur(12px);transition:transform .3s,box-shadow .3s,border-color .3s;transform-style:preserve-3d}
+.card:hover{border-color:var(--y);box-shadow:0 18px 50px rgba(250,204,21,.18)}
+.ph{position:relative;aspect-ratio:16/10;background:linear-gradient(135deg,#102014,#1c3320);overflow:hidden;cursor:zoom-in}
+.ph img{width:100%;height:100%;object-fit:cover;transition:.5s}.card:hover .ph img{transform:scale(1.08)}
+.ph .n{position:absolute;right:10px;bottom:10px;background:rgba(0,0,0,.65);padding:3px 10px;border-radius:99px;font-size:12px}
+.mod{position:absolute;left:10px;top:10px;background:var(--y);color:#161200;font-weight:700;font-size:12px;padding:4px 11px;border-radius:99px}
+.fr{position:absolute;right:10px;top:10px;background:var(--g);color:#0b1a07;font-weight:700;font-size:11px;padding:4px 10px;border-radius:99px}
+.bd{padding:18px}.bd h3{font-size:18px}.bd small{display:block;color:var(--mu);margin:4px 0 16px}
+.bd .btn{width:100%;justify-content:center;padding:12px}
+.how{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.how div{padding:26px;border-radius:18px;background:var(--card);border:1px solid var(--bd);backdrop-filter:blur(10px)}
+.how b{font-family:'Press Start 2P';font-size:22px;color:var(--y)}.how h3{margin:14px 0 6px}.how p{color:var(--mu);font-size:14px;line-height:1.55}
+.final{text-align:center;padding:90px 5vw}.final .box{padding:56px 24px;border-radius:26px;background:linear-gradient(135deg,rgba(250,204,21,.14),rgba(120,220,90,.1));border:1px solid var(--bd);backdrop-filter:blur(12px)}
+footer{text-align:center;color:var(--mu);font-size:13px;padding:30px}
+.rv{opacity:0;transform:translateY(34px);transition:opacity .8s,transform .8s}.rv.on{opacity:1;transform:none}
+#lb{position:fixed;inset:0;z-index:50;background:rgba(0,0,0,.92);display:none;align-items:center;justify-content:center;cursor:zoom-out}
+#lb.on{display:flex}#lb img{max-width:92vw;max-height:90vh;border-radius:12px}
+@media(max-width:640px){nav div a:not(.btn){display:none}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}
+</style></head><body>
+<video id="bg" autoplay muted loop playsinline preload="auto" poster="assets/logo.png"><source src="assets/bg.mp4" type="video/mp4"></video>
+<canvas id="cv"></canvas><div class="veil"></div>
+<nav><a class="brand" href="#"><img src="assets/logo.png" alt="" onerror="this.remove()"><span>NOVZ <b>SCHEMATIC</b></span></a>
+<div><a href="#farm">Farm</a><a href="#base">Base</a><a href="#cara">Cara</a><a class="btn p" style="padding:9px 18px;margin-left:22px;color:#161200" href="https://dc.gg/novzschematic" target="_blank" rel="noopener">Request</a></div></nav>
 
-<main>
-<div class="hero"><div class="wrap">
-<div class="badge px">100% GRATIS</div><br>
-<svg class="cube" viewBox="0 0 120 130" xmlns="http://www.w3.org/2000/svg" aria-label="Logo Novz Schematic">
-<polygon points="60,4 108,30 60,56 12,30" fill="none" stroke="#ffd21f" stroke-width="2" stroke-dasharray="5 4" opacity=".75"/>
-<polygon points="60,22 100,44 60,66 20,44" fill="#6cc04a"/>
-<polygon points="20,44 60,66 60,114 20,92" fill="#8a5a36"/>
-<polygon points="100,44 60,66 60,114 100,92" fill="#6b4226"/>
-<polygon points="20,44 60,66 60,74 20,52" fill="#4a9d3a"/>
-<polygon points="100,44 60,66 60,74 100,52" fill="#3f8531"/>
-</svg>
-<h1><span class="y">NOVZ</span> SCHEMATIC</h1>
-<p>Cari schematic buat farm dan base? Di Novz Schematic aja. Semua schematic <b>100% gratis</b>, tinggal request dan paste.</p>
-<a class="btn" href="https://dc.gg/novzschematic" target="_blank" rel="noopener">Request Schematic</a><a class="btn o" href="#koleksi">Lihat Koleksi</a>
-<div class="stats">
-<div class="stat"><b>100%</b><span>Gratis</span></div>
-<div class="stat"><b>Farm</b><span>&amp; Base</span></div>
-<div class="stat"><b>Siap</b><span>Paste</span></div>
-</div>
-</div></div>
+<header class="hero">
+<img class="logo" src="assets/logo.png" alt="Novz Schematic" onerror="this.outerHTML='<div class=&quot;logo t&quot;>NOVZ<span>SCHEMATIC</span></div>'">
+<div class="badge">★ 100% GRATIS — TANPA BAYAR ★</div>
+<h1>Cari schematic buat <em>farm &amp; base?</em><br>Di Novz Schematic aja!</h1>
+<p>Download koleksi schematic Minecraft (.litematic) gratis, atau request schematic impianmu langsung lewat tiket Discord.</p>
+<div class="cta"><a class="btn p" href="https://dc.gg/novzschematic" target="_blank" rel="noopener">🎫 Request Schematic</a><a class="btn s" href="#farm">⬇ Lihat Koleksi</a></div>
+<div class="stats"><div><b data-n="4">0</b><span>Farm</span></div><div><b data-n="7">0</b><span>Base</span></div><div><b data-n="100">0</b><span>% Gratis</span></div></div>
+</header>
 
-<section id="koleksi"><div class="wrap">
-<div class="tag px">KOLEKSI</div>
-<h2>Koleksi Farm</h2>
-<p class="sub">Semua schematic gratis. Klik request untuk buka ticket di Discord.</p>
-<div class="farms">
-<article class="farm"><div class="shots"><img src="assets/images/pink-bamboo-1.webp" alt="Bagian dalam Pink Bamboo Farm dengan dinding dan lantai pink" loading="lazy"><img src="assets/images/pink-bamboo-2.webp" alt="Lorong panjang Pink Bamboo Farm" loading="lazy"></div><div class="fb"><h3>Pink Bamboo Farm</h3><div class="meta"><span class="chip g">Gratis</span><span class="chip">60 module</span><span class="chip">by Nova</span></div><p>Farm bambu bertema pink dengan 60 module. Desainnya rapi, lengkap dengan area storage berisi banyak chest.</p><a class="btn dl" href="schematics/Pink_Bamboo_Farm_by_Nova.litematic" download="Pink_Bamboo_Farm_by_Nova.litematic">Download gratis</a><p class="note" aria-live="polite">File .litematic langsung. Taruh di folder schematics Litematica.</p></div></article>
-<article class="farm"><div class="shots"><img src="assets/images/cobblestone-1.webp" alt="Lorong pilar cobblestone dengan aliran air" loading="lazy"><img src="assets/images/cobblestone-2.webp" alt="Cobblestone Farm dilihat dari bawah" loading="lazy"></div><div class="fb"><h3>Cobblestone Farm</h3><div class="meta"><span class="chip g">Gratis</span><span class="chip">100 module</span><span class="chip">by Archive Nova</span></div><p>Cobblestone farm skala besar dengan 100 module. Deretan pilar cobblestone dengan aliran air di tengah untuk produksi otomatis.</p><a class="btn dl" href="schematics/Cobblestone_Farm_100_Module_by_Archive_Nova.litematic" download="Cobblestone_Farm_100_Module_by_Archive_Nova.litematic">Download gratis</a><p class="note" aria-live="polite">File .litematic langsung. Taruh di folder schematics Litematica.</p></div></article>
-</div>
-<p class="sub" style="margin:12px 0 0">Butuh farm atau base lain? <a href="https://dc.gg/novzschematic" target="_blank" rel="noopener" style="color:var(--accent);font-weight:600">Request lewat ticket</a>.</p>
-</div></section>
+<section id="farm" class="rv"><h2>🌾 Koleksi <i>Farm</i></h2><p class="sub">Klik gambar untuk memperbesar, lalu download file .litematic-nya.</p><div class="grid" id="gf"></div></section>
+<section id="base" class="rv"><h2>🏰 Koleksi <i>Base</i></h2><p class="sub">Dari base gelap sampai stash balon udara — semuanya gratis.</p><div class="grid" id="gb"></div></section>
+<section id="lain" class="rv"><h2>🏎️ Build <i>Lainnya</i></h2><p class="sub">Build spesial di luar farm dan base.</p><div class="grid" id="gl"></div></section>
+<section id="cara" class="rv"><h2>⚡ Cara <i>Request</i></h2><p class="sub">Tiga langkah, tanpa ribet.</p>
+<div class="how"><div><b>01</b><h3>Join Discord</h3><p>Masuk ke server Novz Schematic lewat tombol Request.</p></div><div><b>02</b><h3>Buka Tiket</h3><p>Buat tiket request dan jelaskan schematic yang kamu mau.</p></div><div><b>03</b><h3>Terima File</h3><p>Schematic dikirim gratis, siap di-load pakai Litematica.</p></div></div></section>
+<div class="final rv"><div class="box"><h2>Butuh schematic <i>custom?</i></h2><p class="sub">Request sekarang, 100% gratis.</p><a class="btn p" href="https://dc.gg/novzschematic" target="_blank" rel="noopener">🎫 Request Schematic</a></div></div>
+<footer>© Novz Schematic • dc.gg/novzschematic</footer>
+<div id="lb"><img alt=""></div>
 
-<section id="base"><div class="wrap">
-<div class="tag px">KOLEKSI</div>
-<h2>Koleksi Base</h2>
-<p class="sub">Katedral, dungeon, dan stash siap pakai. Semua gratis.</p>
-<div class="farms">
-<article class="farm"><div class="shots"><img src="assets/images/base-gambel-1.webp" alt="Base Gambel" loading="lazy"><img src="assets/images/base-gambel-2.webp" alt="Base Gambel" loading="lazy"></div><div class="fb"><h3>Base Gambel</h3><div class="meta"><span class="chip g">Gratis</span><span class="chip">by Archive Nova</span></div><p>Base katedral bernuansa putih dengan jendela kaca ungu dan langit-langit tinggi. Ukuran 99 × 52 × 58 blok.</p><a class="btn dl" href="schematics/Base_Gambel_by_Archive_Nova.litematic" download="Base_Gambel_by_Archive_Nova.litematic">Download gratis</a><p class="note" aria-live="polite">File .litematic langsung. Taruh di folder schematics Litematica.</p></div></article>
-<article class="farm"><div class="shots"><img src="assets/images/black-cathedral-1.webp" alt="Black Cathedral" loading="lazy"><img src="assets/images/black-cathedral-2.webp" alt="Black Cathedral" loading="lazy"></div><div class="fb"><h3>Black Cathedral</h3><div class="meta"><span class="chip g">Gratis</span><span class="chip">by TT_voltz</span></div><p>Katedral serba hitam dengan pilar tinggi, jendela batu putih, dan lantai berpetak. Ukuran 69 × 38 × 108 blok.</p><a class="btn dl" href="schematics/Black_Cathedral_by_TT_voltz.litematic" download="Black_Cathedral_by_TT_voltz.litematic">Download gratis</a><p class="note" aria-live="polite">File .litematic langsung. Taruh di folder schematics Litematica.</p></div></article>
-<article class="farm"><div class="shots"><img src="assets/images/voidviews-1.webp" alt="VoidViews Black Cathedral" loading="lazy"><img src="assets/images/voidviews-2.webp" alt="VoidViews Black Cathedral" loading="lazy"></div><div class="fb"><h3>VoidViews Black Cathedral</h3><div class="meta"><span class="chip g">Gratis</span><span class="chip">by VoidViews</span></div><p>Katedral hitam skala besar dengan pilar hitam putih dan ruang utama yang panjang. Ukuran 72 × 108 × 154 blok.</p><a class="btn dl" href="schematics/VoidViews_Black_Cathedral.litematic" download="VoidViews_Black_Cathedral.litematic">Download gratis</a><p class="note" aria-live="polite">File .litematic langsung. Taruh di folder schematics Litematica.</p></div></article>
-<article class="farm"><div class="shots one"><img src="assets/images/dungeon-1.webp" alt="Dungeon Base" loading="lazy"></div><div class="fb"><h3>Dungeon Base</h3><div class="meta"><span class="chip g">Gratis</span><span class="chip">by Deleteusername</span></div><p>Base bergaya dungeon berbentuk arena bundar dari batu dan deepslate. Ukuran 91 × 72 × 91 blok.</p><a class="btn dl" href="schematics/Dungeon_Base_by_Deleteusername.litematic" download="Dungeon_Base_by_Deleteusername.litematic">Download gratis</a><p class="note" aria-live="polite">File .litematic langsung. Taruh di folder schematics Litematica.</p></div></article>
-<article class="farm"><div class="shots"><img src="assets/images/stash-1.webp" alt="Stash Balon Udara" loading="lazy"><img src="assets/images/stash-2.webp" alt="Stash Balon Udara" loading="lazy"></div><div class="fb"><h3>Stash Balon Udara</h3><div class="meta"><span class="chip g">Gratis</span><span class="chip">by Drmalzdanten</span></div><p>Stash berbentuk balon udara dengan 108 chest dan taman azalea di dalamnya. Ukuran 55 × 18 × 29 blok.</p><a class="btn dl" href="schematics/Stash_Balon_Udara_by_Drmalzdanten.litematic" download="Stash_Balon_Udara_by_Drmalzdanten.litematic">Download gratis</a><p class="note" aria-live="polite">File .litematic langsung. Taruh di folder schematics Litematica.</p></div></article>
-</div>
-</div></section>
-<section id="gratis"><div class="wrap">
-<div class="free">
-<div class="tag px" style="color:#fff;opacity:.8">KENAPA NOVZ</div>
-<h2>100% GRATIS</h2>
-<p>Tanpa bayar, tanpa biaya tersembunyi. Cukup buka ticket di Discord dan request schematic yang kamu mau.</p>
-<div class="chk"><span>✔ Gratis selamanya</span><span>✔ Siap paste</span><span>✔ Bisa request</span><span>✔ Support via ticket</span></div>
-</div></div></section>
-
-<section id="cara"><div class="wrap">
-<div class="tag px">CARA REQUEST</div>
-<h2>Cuma 3 langkah</h2>
-<p class="sub">Gampang dan cepat.</p>
-<div class="steps">
-<div class="step"><b>Klik Request</b><span>Tekan tombol Request Schematic untuk masuk ke Discord Novz Schematic.</span></div>
-<div class="step"><b>Buka ticket</b><span>Buat ticket, sebutkan schematic farm atau base yang kamu mau dan versi Minecraft kamu.</span></div>
-<div class="step"><b>Terima &amp; paste</b><span>Ambil file schematic, lalu paste di world kamu dengan WorldEdit atau Litematica.</span></div>
-</div></div></section>
-
-<section><div class="wrap"><div class="cta">
-<h2>Siap bangun farm &amp; base impianmu?</h2>
-<p class="sub">Gratis. Klik tombol di bawah, langsung buka ticket di Discord.</p>
-<a class="btn" href="https://dc.gg/novzschematic" target="_blank" rel="noopener">Request Schematic di Discord</a>
-</div></div></section>
-</main>
-
-<footer><div class="wrap">© 2026 Novz Schematic · 100% gratis. Bukan produk resmi Mojang atau Microsoft.</div></footer>
-
-
-<script>(function(){var v=document.getElementById('vbv');if(v&&window.matchMedia('(prefers-reduced-motion:reduce)').matches){v.removeAttribute('autoplay');v.addEventListener('loadeddata',function(){v.pause();});}})();</script>
-</body>
-</html>
+<script>
+// Ganti nama file di sini kalau berbeda. Gambar -> assets/, file schematic -> files/
+const farm=[
+{n:"Pink Bamboo Farm",by:"Nova",m:"40 module",img:["assets/pink-1.jpg","assets/pink-2.jpg"],f:"files/pink-bamboo-farm.litematic"},
+{n:"Cobblestone Farm",by:"Archive Nova",m:"100 module",img:["assets/cobble-1.jpg","assets/cobble-2.jpg","assets/cobble-3.jpg"],f:"files/cobblestone-farm.litematic"},
+{n:"Cobble Factory",by:"MatiMan1",m:"256 module",img:["assets/factory-1.jpg","assets/factory-2.jpg"],f:"files/cobble-factory-256-module.litematic"},
+{n:"CobbleBonker V6 Slab",by:"Nabify",img:["assets/bonker-1.jpg"],f:"files/cobblebonker-v6-slab.litematic"}];
+const base=[
+{n:"Base Gambel",by:"Archive Nova",img:["assets/gambel-1.jpg","assets/gambel-2.jpg"],f:"files/base-gambel.litematic"},
+{n:"Black Cathedral",by:"TT_voltz",img:["assets/cathedral-1.jpg","assets/cathedral-2.jpg"],f:"files/black-cathedral.litematic"},
+{n:"VoidViews Black Cathedral",by:"VoidViews",img:["assets/voidviews-1.jpg","assets/voidviews-2.jpg"],f:"files/voidviews-black-cathedral.litematic"},
+{n:"Dungeon Base",by:"Deleteusername",img:["assets/dungeon-1.jpg","assets/dungeon-2.jpg"],f:"files/dungeon-base.litematic"},
+{n:"Stash Balon Udara",by:"Drmalzdanten",img:["assets/balon-1.jpg","assets/balon-2.jpg","assets/balon-3.jpg","assets/balon-4.jpg"],f:"files/stash-balon-udara.litematic"},
+{n:"BBC 1 Module Simple Storage",by:"Drmalzdanten",m:"1 module",img:["assets/bbc-1.jpg"],f:"files/bbc-1-module-simple-storage.litematic"},
+{n:"Angel Stash",by:"2banned",img:["assets/angel-1.jpg"],f:"files/angel-stash.litematic"}];
+const lain=[
+{n:"Lightning McQueen",by:"exturmator",img:["assets/mcqueen-1.jpg"],f:"files/lightning-mcqueen.litematic"}];
+const ph="data:image/svg+xml,"+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400"><rect width="640" height="400" fill="#16301b"/><text x="320" y="205" fill="#facc15" font-family="monospace" font-size="22" text-anchor="middle">NOVZ SCHEMATIC</text></svg>');
+function render(list,el){list.forEach(o=>{const c=document.createElement('div');c.className='card';let i=0;
+c.innerHTML=`<div class="ph">${o.m?`<span class="mod">${o.m}</span>`:''}<span class="fr">GRATIS</span><img src="${o.img[0]}" alt="${o.n}" loading="lazy">${o.img.length>1?`<span class="n">1/${o.img.length}</span>`:''}</div><div class="bd"><h3>${o.n}</h3><small>by ${o.by}</small><a class="btn p" href="${o.f}" download>⬇ Download .litematic</a></div>`;
+const im=c.querySelector('img');im.onerror=()=>{im.onerror=null;im.src=ph};
+c.querySelector('.ph').onclick=()=>{if(o.img.length>1&&!event.target.closest('.n')&&event.detail===2){}
+ const lb=document.getElementById('lb');lb.querySelector('img').src=im.src;lb.classList.add('on')};
+if(o.img.length>1){setInterval(()=>{i=(i+1)%o.img.length;im.src=o.img[i];c.querySelector('.n').textContent=`${i+1}/${o.img.length}`},3500)}
+c.onmousemove=e=>{const r=c.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;c.style.transform=`perspective(800px) rotateY(${x*8}deg) rotateX(${-y*8}deg) translateY(-6px)`};
+c.onmouseleave=()=>c.style.transform='';el.appendChild(c)})}
+render(farm,gf);render(base,gb);render(lain,gl);
+lb.onclick=()=>lb.classList.remove('on');
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.rv').forEach(e=>io.observe(e));
+document.querySelectorAll('[data-n]').forEach(e=>{const t=+e.dataset.n;let v=0;const s=setInterval(()=>{v+=Math.ceil(t/40);if(v>=t){v=t;clearInterval(s)}e.textContent=v},35)});
+// partikel kubus (juga jadi cadangan kalau video gagal dimuat)
+const cv=document.getElementById('cv'),x=cv.getContext('2d');let W,H,P=[];
+function rs(){W=cv.width=innerWidth;H=cv.height=innerHeight}rs();addEventListener('resize',rs);
+for(let i=0;i<28;i++)P.push({x:Math.random()*2e3,y:Math.random()*1e3,s:6+Math.random()*14,v:.2+Math.random()*.6,a:Math.random()*6});
+(function f(){x.clearRect(0,0,W,H);P.forEach(p=>{p.y-=p.v;p.a+=.01;if(p.y<-30){p.y=H+30;p.x=Math.random()*W}
+const px=p.x%W+Math.sin(p.a)*10;x.globalAlpha=.35;x.strokeStyle='#facc15';x.strokeRect(px,p.y,p.s,p.s);x.fillStyle='rgba(120,220,90,.5)';x.fillRect(px+2,p.y+2,p.s-4,p.s-4)});requestAnimationFrame(f)})();
+document.getElementById('bg').onerror=()=>{};
+</script></body></html>
